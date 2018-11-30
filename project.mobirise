@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TYMI HOWARD YOGA New Site",
-    "currentPage": "contact-us.html",
+    "currentPage": "yoga-teacher-training.html",
     "theme": {
       "name": "restaurantm4",
       "title": "RestaurantM4",
@@ -29,17 +29,17 @@
         "arrowColor": "#ffbc00"
       },
       "additionalSetColors": [
+        "#d48336",
+        "#700c15",
+        "#f4990e",
         "#ef0d0d",
         "#fff8f0",
         "#25a8bf",
-        "#f58111",
-        "#eedbb2",
-        "#18e4dc",
-        "#f57e0c"
+        "#f58111"
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 203,
+    "uniqCompNum": 210,
     "versionPublish": "4.8.4",
     "mcShopcart": {
       "email": "carlos@livininspired.com",
@@ -1899,7 +1899,7 @@
             }
           },
           "_name": "image1",
-          "_customHTML": "<section group=\"Images & Videos\" class=\"image1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"7\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"27\" step=\"1\" condition=\"fullWidth == false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"fullWidth == false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#69b9d0\" condition=\"gradientBg && fullWidth == false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth == false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/soha-logo-horizontal-500x194.png\" alt title>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\" class=\"image1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"7\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"27\" step=\"1\" condition=\"fullWidth == false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"fullWidth == false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#69b9d0\" condition=\"gradientBg && fullWidth == false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth == false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/tymi-howard-yoga-presenter-retina-600x270.png\" alt title>\n        </div>\n    </figure>\n</section>",
           "_cid": "qHudRwmxBu",
           "_anchor": "image1-3o",
           "_PHPplaceholders": [],
@@ -2302,86 +2302,17 @@
               }
             },
             ".mbr-section-title": {
-              "text-align": "right"
+              "text-align": "right",
+              "color": "#9f3942"
             },
             ".mbr-section-text": {
               "color": "#444444"
             }
           },
           "_name": "features1",
-          "_customHTML": "<section class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Square\" name=\"showSquare\" checked condition=\"showMedia\">\n        <input type=\"color\" title=\"Square Color\" name=\"squareColor\" value=\"#ffda73\" condition=\"showMedia && showSquare\">\n        <input type=\"checkbox\" title=\"Show Vertical Text\" name=\"showVerticalText\" checked>\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" condition=\"showMedia\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background7.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#ffffff\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"box\" mbr-if=\"showMedia && showSquare\"></div>\n            <div class=\"col-sm-12 text-block\" mbr-class=\"{'col-md-10': !showMedia,\n                             'col-md-6': showMedia}\">\n                <div class=\"text-box mbr-fonts-style align-center mbr-bold\" mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showVerticalText\" data-app-selector=\".text-box\"></div>\n                <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-right': !reverseContent,\n                                'align-left': reverseContent}\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Welcome to SOHA: <br>School of Healing Arts&nbsp;</h3>\n                <div mbr-text class=\"mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-right': !reverseContent,\n                                 'align-left': reverseContent}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">A gift to re-define and re-discover our Self.<br>We will come into deep understanding of Yoga, Philosophy, and the Sacred Healing Arts -in and through- all of our layers of body, mind &amp; soul.<br></div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/soha-yoga-teacher-training-4725x4725.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Square\" name=\"showSquare\" condition=\"showMedia\" checked>\n        <input type=\"color\" title=\"Square Color\" name=\"squareColor\" value=\"#f9e2af\" condition=\"showMedia && showSquare\">\n        <input type=\"checkbox\" title=\"Show Vertical Text\" name=\"showVerticalText\" checked>\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" condition=\"showMedia\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background7.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#ffffff\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"box\" mbr-if=\"showMedia && showSquare\"></div>\n            <div class=\"col-sm-12 text-block\" mbr-class=\"{'col-md-10': !showMedia,\n                             'col-md-6': showMedia}\">\n                <div class=\"text-box mbr-fonts-style align-center mbr-bold\" mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showVerticalText\" data-app-selector=\".text-box\"></div>\n                <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-right': !reverseContent,\n                                'align-left': reverseContent}\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>&nbsp;200/300/500HR<br>YOGA TEACHER TRAININGS</b></h3>\n                <div mbr-text class=\"mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-right': !reverseContent,\n                                 'align-left': reverseContent}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\"><b>&nbsp;Learn how to apply the ancient Science of Yoga into your modern day yogi lifestyle!!</b> <br><br>The very foundation of being a yoga teacher stems from personal practice. This is why all of my Teacher Trainings start there, and transition into applying all of the ancient and modern tools into teaching yoga at the 200/300/500 RYT level. So whether you want to become a teacher or simply strengthen your own personal practice THY Yoga Teacher Trainings will transform, empower and inspire!</div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/yoga-barn-tymi-howard-1-960x640.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qEnbQpbjAx",
           "_anchor": "features1-21",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@reverseContent)": {
-              ".row": {
-                "flex-direction": "row-reverse"
-              },
-              ".text-block": {
-                "padding-right": "15px !important",
-                "padding-left": "5rem"
-              }
-            },
-            ".text-block": {
-              "padding-right": "5rem"
-            },
-            ".underline": {
-              "padding-top": ".5rem",
-              "padding-bottom": ".5rem",
-              ".line": {
-                "width": "5rem",
-                "height": "3px",
-                "background": "@lineColor",
-                "display": "inline-block"
-              }
-            },
-            ".social-media ul li": {
-              "margin": "0",
-              "margin-left": "1rem",
-              "& when (@reverseContent)": {
-                "margin": "0",
-                "margin-right": "1rem"
-              },
-              ".mbr-iconfont": {
-                "color": "@iconColor",
-                "&:hover": {
-                  "color": "@iconHover"
-                }
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".row": {
-                "flex-direction": "column-reverse"
-              },
-              ".img-block": {
-                "margin-bottom": "1rem"
-              },
-              ".text-block": {
-                "padding": "0 15px"
-              }
-            },
-            ".mbr-section-subtitle I": {
-              "color": "#125568"
-            }
-          },
-          "_name": "info1",
-          "_customHTML": "<section class=\"info1\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Underlines\" name=\"showUnderline\" condition=\"showText\">\n        <input type=\"color\" title=\"Underlines Color\" name=\"lineColor\" value=\"#85bfd0\" condition=\"showText\">\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" condition=\"showMedia\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons Count\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n        </select>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icon Hover Color\" name=\"iconHover\" value=\"#cccccc\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/yoga-in-bali-8653-2000x13334.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#f7eace\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ced7da\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-xs-12 text-block\" mbr-class=\"{'col-sm-10': !showMedia,\n                             'col-sm-5': showMedia}\">\n                <h2 class=\"mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-center': !showMedia,\n                                'align-right': !reverseContent && showMedia,\n                                'align-left': reverseContent && showMedia,\n                                'pb-3': !showSubtitle}\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Yoga Teacher Training</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style pb-3\" mbr-class=\"{'align-center': !showMedia,\n                                'align-right': !reverseContent && showMedia,\n                                'align-left': reverseContent && showMedia}\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><font color=\"#125568\"><i>200hr Yoga Teacher Training covering Hatha, Vinyasa &amp; Elements of Yin Yoga Check event calendar for future dates on trainings and Immersions</i></font></h3>\n                <div mbr-text class=\"mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-center': !showMedia,\n                                 'align-right': !reverseContent && showMedia,\n                                 'align-left': reverseContent && showMedia,\n                                 'pb-4': !showUnderline}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text, .underline, .social-media\">We   offer   a   perfect   balance   of   technique, spiritual   practice,   and   the   integration   of sacred   tools   for   transforming,   healing, and   embodying   our   highest   potential.<br></div>\n                <div class=\"underline\" mbr-class=\"{'align-center': !showMedia,\n                                 'align-right': !reverseContent && showMedia,\n                                 'align-left': reverseContent && showMedia}\" mbr-if=\"showUnderline && showText\">\n                    <div class=\"line\"></div>\n                </div>\n                <div mbr-text class=\"mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-center': !showMedia,\n                                 'align-right': !reverseContent && showMedia,\n                                 'align-left': reverseContent && showMedia,\n                                 'pb-4': !showUnderline}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text, .underline, .social-media\"></div>\n                <div class=\"underline\" mbr-class=\"{'align-center': !showMedia,\n                                 'align-right': !reverseContent && showMedia,\n                                 'align-left': reverseContent && showMedia}\" mbr-if=\"showUnderline && showText\">\n                    <div class=\"line\"></div>\n                </div>\n                <div mbr-text class=\"mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-center': !showMedia,\n                                 'align-right': !reverseContent && showMedia,\n                                 'align-left': reverseContent && showMedia}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text, .underline, .social-media\"><div></div></div>\n                <div class=\"social-media pt-4\" mbr-class=\"{'align-center': !showMedia,\n                                 'align-right': !reverseContent && showMedia,\n                                 'align-left': reverseContent && showMedia}\" mbr-if=\"showIcons\">\n                    <ul class=\"list-inline\">\n                        <li class=\"list-inline-item\">\n                            <a class=\"icon-transition\" href=\"#\">\n                                <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                            </a>\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                            <a class=\"icon-transition\" href=\"#\">\n                                <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                            </a>\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                            <a class=\"icon-transition\" href=\"#\">\n                                <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                            </a>\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                            <a class=\"icon-transition\" href=\"#\">\n                                <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                            </a>\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                            <a class=\"icon-transition\" href=\"#\">\n                                <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\"></span>\n                            </a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-sm-7 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/yoga-in-bali-4359-600x400.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qEn7VviMAX",
-          "_anchor": "info1-1v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2413,10 +2344,113 @@
             }
           },
           "_name": "image1",
-          "_customHTML": "<section group=\"Images & Videos\" class=\"image1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"20\" step=\"1\" condition=\"fullWidth == false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"fullWidth == false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#69b9d0\" condition=\"gradientBg && fullWidth == false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth == false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/soha-logo400-400x400.png\" alt title>\n        </div>\n    </figure>\n</section>",
-          "_anchor": "image1-3q",
+          "_customHTML": "<section group=\"Images & Videos\" class=\"image1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"63\" step=\"1\" condition=\"fullWidth == false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"fullWidth == false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#69b9d0\" condition=\"gradientBg && fullWidth == false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth == false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/yoga-alliance-registered-school-590x94.png\" alt title>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image1-5p",
           "_isUserblock": true,
-          "_cid": "qHug2bDlpK",
+          "_sourceTheme": "restaurantm4",
+          "_cid": "raTXWL2ymR",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bg-value",
+            "transition": "background-color 0.3s ease-in-out",
+            "&:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".mbr-section-title": {
+              "margin": "0"
+            },
+            ".card-wrapper": {
+              "z-index": "3"
+            },
+            ".full-link": {
+              "position": "absolute !important",
+              "top": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "100%",
+              "font-size": "0",
+              "z-index": "2"
+            },
+            ".popup-btn": {
+              "&.card-wrapper": {
+                "z-index": "1 !important"
+              }
+            }
+          },
+          "_name": "content3",
+          "_customHTML": "<section group=\"Content\" class=\"content3 popup-btn-cards\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#9f3942\" selected>\n        </fieldset>\n\n        <input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#9f3942\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a class=\"full-link\" href=\"{{linkValue}}\"></a>\n    <div class=\"container card-wrapper\">\n        <div class=\"row justify-content-center align-items-center\" mbr-style=\"{'height':blockHeight + 'vw'}\">\n             <div class=\"col-sm-12 col-md-10 text-block align-center\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-light mbr-white mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title, .text-block\"><br><div><span style=\"font-weight: normal;\">200/300/500 Hour Yoga Teacher Training certification program in Vinyasa &amp; Yin Yoga with Tymi Howard will qualify and fulfill requirements  to register with the Yoga Alliance at the 500 Level.</span></div></h2>                 \n             </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content3-5o",
+          "_isUserblock": true,
+          "_sourceTheme": "restaurantm4",
+          "_cid": "raTXsNAZgr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(90deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".text-content .btn-bgr": {
+              "z-index": "0"
+            },
+            ".mbr-overlay": {
+              "background": "@overlayColor",
+              "& when (@gradientOverlay)": {
+                "background": "linear-gradient(135deg, @overlayColor, @overlayColor2)"
+              }
+            },
+            ".content-row": {
+              "& when (@mediaPos)": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
+            },
+            ".text-content": {
+              "padding": "2rem 0rem",
+              "background-color": "@cardBgColor"
+            },
+            ".mbr-section-btn": {
+              "margin-left": "-0.8rem"
+            },
+            ".media-container-row": {
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".text-content": {
+                "margin-bottom": "2rem"
+              }
+            }
+          },
+          "_name": "features8",
+          "_customHTML": "<section class=\"features8\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media on right/left\" name=\"mediaPos\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"cardBgColor\" value=\"#f9e2af\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/yoga-barn-tymi-1600x1200.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#1ec5bf\" condition=\"gradientBg&& bg.type=='color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" condition=\"bg.type !== 'color' && overlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" condition=\"overlay && bg.type !== 'color' && gradientOverlay\" value=\"#85bfd0\">\n        \n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row align-items-center justify-content-center content-row\">\n            <div class=\"content-block col-md-12 col-lg-5\" mbr-if=\"showTitle||showText||showSubtitle||showButtons\">\n                <div class=\"text-content\">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-md-12 \">\n                            <h2 class=\"mb-4 mbr-fonts-style mbr-section-title mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-btn, .mbr-section-title\">200/300/500Hr<br>Vinyasa &amp; Yin <br>Yoga Teacher Trainings</h2>\n                            <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-4 mbr-black\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                                Click any text to edit or style it. Select text to insert a link.</h3>\n                            <p class=\"mb-4 mbr-fonts-style mbr-black\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Tymi Howard Yoga programs offer a world-class education, grounded in the wisdom of experience and empowered professionalism and self-inquiry.</p>\n                            <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-bgr btn-danger-outline\" href=\"yoga-teacher-training.html#features2-5q\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-7 col-md-12\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://www.youtube.com/watch?v=_pE6uAq43lI&pbjreload=10&loop=0&autoplay=0\"></iframe>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "raTVb3UMcX",
+          "_anchor": "features8-5n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2427,46 +2461,110 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text": {
-              "position": "relative",
-              "color": "#444444"
+            ".mbr-text, .ornament B": {
+              "color": "#9f3942"
             },
-            ".mbr-text:before": {
-              "color": "@quotesColor",
-              "content": "\"\\201C\"",
-              "font-size": "3em",
-              "line-height": "0.1em",
-              "margin-right": "0.2em",
-              "vertical-align": "-0.4em",
-              "position": "absolute",
-              "top": "10px",
-              "left": "-2rem"
-            },
-            ".mbr-text:after": {
-              "color": "@quotesColor",
-              "content": "\"\\201D\"",
-              "font-size": "3em",
-              "line-height": "0.1em",
-              "vertical-align": "-0.45em",
-              "position": "absolute",
-              "bottom": "10px",
-              "right": "-2rem"
-            },
-            "@media (max-width: 767px)": {
-              ".mbr-text:after, .mbr-text:before": {
-                "display": "none"
-              }
-            },
-            ".mbr-section-title, .logo": {
-              "color": "#125568"
+            ".mbr-text, .ornament": {
+              "color": "#ffffff"
             }
           },
-          "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <div class=\"logo align-center\" mbr-class=\"{'pb-5': !showTitle,\n                                 'pb-3': showTitle}\" mbr-if=\"showLogo\">\n                    <a href=\"https://livininspired.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/soha-logo400-400x400.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </div>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center pb-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .logo\" mbr-if=\"showTitle\"><b>SOHA:   School   of   Healing   Arts 200hrs   Yoga   Teacher   Training Ubud,   BALI<br>May 5-27, 2019 • 22 days   of   Transformation @ THE YOGA BARN!</b><br><div><b>EARLY BIRD:</b> $3,550 USD  (due in full by February 5th, 2019) •<b> Regurlar Price</b> $3,750USD<br><b>$500 USD Deposit saves your spot in the training!</b></div><div>($20 service fee applies, final payments via bank transfer)</div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>You will learn: </b>Postures, Alignment, Anatomy, Vinyasa Krama (intelligent sequencing), Adjustments, Ancient Philosophy, Energetic Awakening, Yin Yoga, Mandala Vinyasa, Teaching Methodology, Meditation, Acroyoga, and Thai Yoga Massage. This TT is a process of deep transformation. We will experience active and divine creativity manifesting the magic that unfolds.<br></p><center><a class=\"btn btn-md btn-bgr btn-primary\" href=\"https://danielamandala.com/registration-form/\" target=\"_blank\">YES! REGISTER NOW</a></center><p></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qEn7VwbZ8A",
-          "_anchor": "content2-1w",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffbc00\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#700c15\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-2\"><b>200/300 HR YOGA ALLIANCE APPROVED TEACHER TRAININGS</b><br></p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qEnoPsCZrS",
+          "_anchor": "content1-26",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".img-wrap": {
+              "width": "100% !important",
+              "height": "100% !important"
+            },
+            ".main-reverse": {
+              "flex-direction": "row-reverse",
+              "-webkit-flex-direction": "row-reverse"
+            },
+            ".image-element": {
+              "padding": "0",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center center"
+              }
+            },
+            ".text-element": {
+              "padding": "1rem"
+            },
+            ".main,.main-reverse": {
+              "background": "@cardColor"
+            },
+            "@media (max-width: 991px)": {
+              ".main:first-child": {
+                "padding-top": "1rem"
+              },
+              ".image-element,.text-element": {
+                "margin-bottom": "1rem"
+              },
+              ".main-reverse": {
+                "flex-direction": "row",
+                "-webkit-flex-direction": "row"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".container": {
+                "padding-left": "2rem",
+                "padding-right": "2rem"
+              },
+              ".image-element,.text-element": {
+                "margin-bottom": "0"
+              },
+              ".main:first-child": {
+                "padding-top": "0"
+              }
+            }
+          },
+          "_name": "features3",
+          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Price\" name=\"showPrice\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#fff8f0\">\n        <select title=\"Rows Count\" name=\"rowsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/tymi-79-preview-2000x1333.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fff8f0\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#c1c1c1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row main align-items-center\">\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/200hrguruv-1immersion-promo-400x400.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">\n                        Cheesecake\n                    </h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit.\n                    </p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/200hrguruv-10month-promo-400x400.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">\n                        Chicken Sandwich\n                    </h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit.\n                    </p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row main-reverse align-items-center\" mbr-if=\"rowsCount > 1\">\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/bali2019-immersion-teacher-training-promo-570x570.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">\n                        Frozen Bananas\n                    </h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit.\n                    </p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/bsy300ryt-promo-400x400.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">\n                        Cheesecake\n                    </h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit.\n                    </p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row main align-items-center\" mbr-if=\"rowsCount > 2\">\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"../_images/img/delicious1.jpg\">\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">\n                        Cheesecake\n                    </h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit.\n                    </p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"../_images/img/delicious2.jpg\">\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">\n                        Chicken Sandwich\n                    </h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit.\n                    </p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row main-reverse align-items-center\" mbr-if=\"rowsCount > 3\">\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"../_images/img/delicious3.jpg\">\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">\n                        Frozen Bananas\n                    </h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit.\n                    </p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"../_images/img/02.jpg\">\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">\n                        Cheesecake\n                    </h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit.\n                    </p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "raU0Y4Jp5U",
+          "_anchor": "features3-5r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, .ornament B": {
+              "color": "#9f3942"
+            },
+            ".mbr-text, .ornament": {
+              "color": "#444444"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffbc00\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-5\"><b>IF YOUR STUDIO IS INTERESTED IN HOSTING YOGA ALLIANCE APPROVED 200 HOUR VINYASA/YIN TEACHER TRAINING with TYMI HOWARD</b>&nbsp;SEND US AN EMAIL AT: <i><a href=\"mailto:admin@tymihoward.com\">admin@tymihoward.com</a></i><br><br>100 HOUR MODULES • 10 DAYS EACH • MODULE 1: Vinyasa / Yin Teacher Training “Living Your Yoga” • MODULE 2: Vinyasa / Yin Teacher Training “Finding Your Authentic Voice”<br><a href=\"http://mediakit.tymihoward.com/pages/workshop-menu\" target=\"_blank\"><b>DOWNLOAD PROGRAM DETAILS PDF</b></a></p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-5t",
+          "_isUserblock": true,
+          "_sourceTheme": "restaurantm4",
+          "_cid": "raU8eskqh3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2525,7 +2623,7 @@
             }
           },
           "_name": "header4",
-          "_customHTML": "<section group=\"Headers\" class=\"header4\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                     'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Form\" name=\"showForm\">\n        <input type=\"checkbox\" title=\"Show Form Title\" name=\"showFormTitle\" checked condition=\"showForm\">\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#444444\" condition=\"showForm\">\n        <input type=\"color\" title=\"Card Border Color\" name=\"borderColor\" value=\"#ffda73\" condition=\"showForm\">\n        \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/yoga-in-bali-9263-2000x13333.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'justify-content-space-between': showForm,\n                         'justify-content-center': !showForm}\">\n            <div class=\"col-md-6 text-element\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">SOHA: School of Healing Arts 200hrs Yoga Teacher Training</h2>\n                <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pb-3 mbr-white\" mbr-class=\"{'pt-3':!showUnderline}\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle,.mbr-section-btn\"><b>Where:</b> The Yoga Barn, Ubud Bali, Indonesia <br><b>When:</b>&nbsp;May 5 – 27, 2019<div>22 days of Transformation!<br><b>EARLY BIRD: </b>$3,550 USD  (due in full by February 5th, 2019)</div><div><b>Regular Price: </b>$3,750USD</div><div><b>$500 USD Deposit saves your spot in the training!</b></div><div>($20 service fee applies, final payments via bank transfer)</div></h3>\n                <div class=\"mbr-section-btn\" mbr-class=\"{'pt-3':!showSubtitle}\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-white-outline\" href=\"https://danielamandala.com/registration-form/\" target=\"_blank\" data-app-placeholder=\"Type Text\">YES! SAVE MY SPOT $500USD DEPOSIT</a></div>\n            </div>\n            <div class=\"col-lg-4 col-md-6\" mbr-if=\"showForm\">\n                <div class=\"form-block mbr-white\">\n                    <h2 class=\"mbr-fonts-style pb-3 time-block-title\" mbr-theme-style=\"display-5\" mbr-if=\"showFormTitle\" data-app-selector=\".time-block-title, .btn-row\">Request more info...</h2>\n                    <div mbr-form class=\"form-1\">\n                        <div data-form-alert hidden>Thanks for filling out the form!</div>\n                        <form class=\"mbr-form\" action=\"info@livininspired.com\" method=\"post\" name=\"My Mobirise Form\">\n                            <div class=\"input-wrap\" data-for=\"name\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"name\" placeholder=\"Name\" data-form-field=\"Name\" required>\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"email\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"email\" placeholder=\"E-mail\" data-form-field=\"E-mail\" required>\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"phone\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"Phone\">\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"date\" hidden=\"hidden\">\n                                <input type=\"date\" mbr-theme-style=\"display-7\" class=\"field\" name=\"date\" placeholder=\"Date\" data-form-field=\"Date\" required hidden=\"hidden\">\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"time\" hidden=\"hidden\">\n                                <input type=\"time\" mbr-theme-style=\"display-7\" class=\"field\" name=\"time\" placeholder=\"Time\" data-form-field=\"Time\" hidden=\"hidden\">\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"party\" hidden=\"hidden\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"party\" placeholder=\"Party Size\" data-form-field=\"Party\" hidden=\"hidden\">\n                            </div>\n                            <div class=\"btn-row\">\n                                <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href=\"https://mobirise.com/\" type=\"submit\" class=\"btn btn-form btn-white-outline\">Send</a></span>\n                            </div>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>          \n</section>",
+          "_customHTML": "<section group=\"Headers\" class=\"header4\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                     'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Form\" name=\"showForm\">\n        <input type=\"checkbox\" title=\"Show Form Title\" name=\"showFormTitle\" checked condition=\"showForm\">\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#444444\" condition=\"showForm\">\n        <input type=\"color\" title=\"Card Border Color\" name=\"borderColor\" value=\"#ffda73\" condition=\"showForm\">\n        \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/yoga-barn-bali-tymi-1280x960.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'justify-content-space-between': showForm,\n                         'justify-content-center': !showForm}\">\n            <div class=\"col-md-6 text-element\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">200/300/500Hr Vinyasa &amp; Yin Yoga Teacher Training Programs</h2>\n                <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pb-3 mbr-white\" mbr-class=\"{'pt-3':!showUnderline}\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle,.mbr-section-btn\">Tymi is honored to be able to offer her signature “Vinyasa &amp; Yin Yoga” 200 Hour Yoga Alliance Approved Teacher Training. Her programs offer a world-class education, grounded in the wisdom of experience and empowered professionalism and self-inquiry.<br><br>Tymi Howard’s 100/200/300/500hour certification programs in Vinyasa &amp; Yin Yoga will qualify and fulfill requirements for the candidate to register with the Yoga Alliance at the 200/300/500 Level. Tymi offers “One on One” apprenticeship format, which can be started at any time and completed at the pace of the individual student… any questions? more info?</h3>\n                <div class=\"mbr-section-btn\" mbr-class=\"{'pt-3':!showSubtitle}\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-white-outline\" href=\"https://danielamandala.com/registration-form/\" target=\"_blank\" data-app-placeholder=\"Type Text\">EMAIL TYMI HOWARD YOGA</a></div>\n            </div>\n            <div class=\"col-lg-4 col-md-6\" mbr-if=\"showForm\">\n                <div class=\"form-block mbr-white\">\n                    <h2 class=\"mbr-fonts-style pb-3 time-block-title\" mbr-theme-style=\"display-5\" mbr-if=\"showFormTitle\" data-app-selector=\".time-block-title, .btn-row\">Request more info...</h2>\n                    <div mbr-form class=\"form-1\">\n                        <div data-form-alert hidden>Thanks for filling out the form!</div>\n                        <form class=\"mbr-form\" action=\"info@livininspired.com\" method=\"post\" name=\"My Mobirise Form\">\n                            <div class=\"input-wrap\" data-for=\"name\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"name\" placeholder=\"Name\" data-form-field=\"Name\" required>\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"email\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"email\" placeholder=\"E-mail\" data-form-field=\"E-mail\" required>\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"phone\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"Phone\">\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"date\" hidden=\"hidden\">\n                                <input type=\"date\" mbr-theme-style=\"display-7\" class=\"field\" name=\"date\" placeholder=\"Date\" data-form-field=\"Date\" required hidden=\"hidden\">\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"time\" hidden=\"hidden\">\n                                <input type=\"time\" mbr-theme-style=\"display-7\" class=\"field\" name=\"time\" placeholder=\"Time\" data-form-field=\"Time\" hidden=\"hidden\">\n                            </div>\n                            <div class=\"input-wrap\" data-for=\"party\" hidden=\"hidden\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"party\" placeholder=\"Party Size\" data-form-field=\"Party\" hidden=\"hidden\">\n                            </div>\n                            <div class=\"btn-row\">\n                                <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href=\"https://mobirise.com/\" type=\"submit\" class=\"btn btn-form btn-white-outline\">Send</a></span>\n                            </div>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>          \n</section>",
           "_cid": "qEnfev3cnZ",
           "_anchor": "header4-22",
           "_PHPplaceholders": [],
@@ -2566,138 +2664,7 @@
             }
           },
           "_name": "content3",
-          "_customHTML": "<section group=\"Content\" class=\"content3 popup-btn-cards\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#3789a0\" selected>\n        </fieldset>\n\n        <input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#3789a0\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a class=\"full-link\" href=\"{{linkValue}}\"></a>\n    <div class=\"container card-wrapper\">\n        <div class=\"row justify-content-center align-items-center\" mbr-style=\"{'height':blockHeight + 'vw'}\">\n             <div class=\"col-sm-12 col-md-10 text-block align-center\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-light mbr-white mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .text-block\"><div><span style=\"font-weight: normal;\">SOHA: School of Healing Arts 200hrs Yoga Teacher Training Modules</span></div></h2>                 \n             </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content3-2u",
-          "_isUserblock": true,
-          "_cid": "qEFnZQnh3A",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".img-wrap": {
-              "width": "100% !important",
-              "height": "100% !important"
-            },
-            ".main-reverse": {
-              "flex-direction": "row-reverse"
-            },
-            ".image-element": {
-              "padding": "0",
-              "display": "flex",
-              "justify-content": "center",
-              "img": {
-                "width": "100%",
-                "height": "100%",
-                "object-fit": "cover",
-                "object-position": "center center"
-              }
-            },
-            ".text-element": {
-              "padding": "1rem"
-            },
-            ".main,.main-reverse": {
-              "background": "@cardColor"
-            },
-            "@media (max-width: 991px)": {
-              ".main:first-child": {
-                "padding-top": "1rem"
-              },
-              ".image-element,.text-element": {
-                "margin-bottom": "1rem"
-              },
-              ".main-reverse": {
-                "flex-direction": "row"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".container": {
-                "padding-left": "2rem",
-                "padding-right": "2rem"
-              },
-              ".image-element,.text-element": {
-                "margin-bottom": "0"
-              },
-              ".main:first-child": {
-                "padding-top": "0"
-              }
-            },
-            ".mbr-text": {
-              "text-align": "left"
-            },
-            ".mbr-title,.underline": {
-              "text-align": "left"
-            }
-          },
-          "_name": "features3",
-          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Price\" name=\"showPrice\">\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#ffffff\">\n        <select title=\"Rows Count\" name=\"rowsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/yoga%20in%20bali%20-7847-1200x800.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#125568\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#c1c1c1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row main align-items-center\">\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/yogabali-module1-1-2400x1600.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">Ganesha &nbsp;Ground: <br>  Earth   Module 1</h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">• Foundation   of   an   integrated   yoga   practice.<br>• Discover   the   names,   main   function,   and   forms   of   grounding   yoga   poses.<br>• &nbsp;Alignment   principles   and   the   healthy   biomechanics   of   the   practice.<br>• Principles   of   yoga   philosophy   applying   the   teachings   into   everyday   life.<br>• Ganesha   offerings:   grounded,   opening   the   obstacles   and   guiding   the   practice   to   solid<br>foundations.<br></p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/yoga-bali-module2-1600x2400.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">Saraswati   Sings: <br>  Water   Module 2</h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">&nbsp;• We   enter   the   realms   of   Saraswati.   Creativity,   Flow,   and   Krama   (art   of   progressions)   come   into the   game.<br>• &nbsp;Learn   teaching   techniques   and   the   dynamics   of   how   to   create   an   intelligent   sequence.<br>&nbsp;• &nbsp;Study   of   the   scriptures,   and   the   self   knowledge   (Svadyaya)<br>• &nbsp;Move   like   water,   in   and   through   our   emotional   bodies,   healing,   creating,   and   manifesting   our<br>divine   creativity.<br>• Embody   the   magic   flow   behind   smart,   safe,   and   progressive   vinyasa   sequencing.<br></p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row main-reverse align-items-center\" mbr-if=\"rowsCount > 1\">\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/yoga-bali-module4-1-2400x1600.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">Hanuman   Leap: <br>Air   Module 4</h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Visit   to   Sound   Healing/Kirtan   Concert   &amp;   Closing   Ceremony<br>• Unfold   the   Love   into   the   upper   realms   and   Chakras.<br>• Learn   Yin   Yoga,   the   use   of   Props,   and   Restorative   practice.<br>• Arise   in   your   own   style   and   inner   teacher.<br>• Embodiment   of   an   integrated   and   complete   practice.<br>• Integrate   Mantra,   Mudra,   Meditation,   Krama,   Cooling,   and   Closing.<br>• Yoga   Sadhana   becomes   a   complete piece   of   art.<br>• The   Offering   (Isvara   Pranidhanani)<br>• Devotion   to   the   Light   Path.<br>• Closing   Ceremony,   Puja.<br>• Set   your   wings   ready   to   fly.   Take   Flight   and   share   it   to   the   world.</p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/yoga-bali-module3-2-2400x1600.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">Shiva   Boom: <br>Fire   Module 3</h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">&nbsp;• Fire Ceremony<br>• Embody   Tapas:   The   Fire   of   Discipline<br>• Burn   through   impurities   and   leap   into   conquering   fears<br>• Tune   your   teaching   voice   with   wisdom   and   truth<br>• Re-define   Teaching   Methodology<br>• Dive   deep   into   the   art   of   assisting   and   adjusting.<br>• Feel   complete   confidence   into   mastering   the   art   of   touch   with   Acroyoga   and   Thai   Massage.<br><br><br><br><br><br><br><br><br></p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row main align-items-center\" mbr-if=\"rowsCount > 2\">\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"../_images/img/delicious1.jpg\">\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">Cheesecake</h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Lorem ipsum dolor sit.</p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"../_images/img/delicious2.jpg\">\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">Chicken Sandwich</h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Lorem ipsum dolor sit.</p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row main-reverse align-items-center\" mbr-if=\"rowsCount > 3\">\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"../_images/img/delicious3.jpg\">\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">Frozen Bananas</h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Lorem ipsum dolor sit.</p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 image-element align-self-stretch\">\n                <div class=\"img-wrap\">\n                    <img src=\"../_images/img/02.jpg\">\n                </div>\n            </div>\n            <div class=\"col-md-6 col-lg-3 text-element\">\n                <div class=\"text-content\">\n                    <h2 class=\"mbr-title  mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title,.underline\">Cheesecake</h2>\n                    <p class=\"mbr-text mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Lorem ipsum dolor sit.</p>\n                    <p class=\"mbr-price-value mbr-light mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showPrice\" data-app-selector=\".mbr-price-value\">\n                        <i>$19</i>\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qEnh8fV97H",
-          "_anchor": "features3-23",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, .ornament B": {
-              "color": "#125568"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffbc00\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-5\"><b>NIGHT EVENTS</b><br>Satsang • Yoga   Movie   night • Candle   Meditation •   Bodywork   and   Dessert • Temple   night • Kirtan   night • Yoga   Nidra Sound   Healing • Wisdom   Circle • Feedback   Sessions • Solo   time • Sangha   share • Women and   men ́s   circle</p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qEnoPsCZrS",
-          "_anchor": "content1-26",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bg-value",
-            "transition": "background-color 0.3s ease-in-out",
-            "&:hover": {
-              "background-color": "@hoverColor"
-            },
-            ".mbr-section-title": {
-              "margin": "0"
-            },
-            ".card-wrapper": {
-              "z-index": "3"
-            },
-            ".full-link": {
-              "position": "absolute !important",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "height": "100%",
-              "font-size": "0",
-              "z-index": "2"
-            },
-            ".popup-btn": {
-              "&.card-wrapper": {
-                "z-index": "1 !important"
-              }
-            }
-          },
-          "_name": "content3",
-          "_customHTML": "<section group=\"Content\" class=\"content3 popup-btn-cards\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#125568\" selected>\n        </fieldset>\n\n        <input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#125568\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a class=\"full-link\" href=\"{{linkValue}}\"></a>\n    <div class=\"container card-wrapper\">\n        <div class=\"row justify-content-center align-items-center\" mbr-style=\"{'height':blockHeight + 'vw'}\">\n             <div class=\"col-sm-12 col-md-10 text-block align-center\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-light mbr-white mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .text-block\"><span style=\"font-weight: normal;\">ABOUT YOUR COURSE INSTRUCTORS</span></h2>                 \n             </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Content\" class=\"content3 popup-btn-cards\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#d48336\" selected>\n        </fieldset>\n\n        <input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#d48336\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a class=\"full-link\" href=\"{{linkValue}}\"></a>\n    <div class=\"container card-wrapper\">\n        <div class=\"row justify-content-center align-items-center\" mbr-style=\"{'height':blockHeight + 'vw'}\">\n             <div class=\"col-sm-12 col-md-10 text-block align-center\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-light mbr-white mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title, .text-block\"><span style=\"font-weight: normal;\">GURUV YOGA 200 Hour Yoga Teacher Training program is ongoing!</span></h2>                 \n             </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content3-2s",
           "_isUserblock": true,
           "_cid": "qEFkLK7r0D",
@@ -2708,205 +2675,34 @@
         },
         {
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(135deg, @bgColor, @color2)"
             },
-            ".text-box": {
-              "position": "absolute",
-              "top": "0px",
-              "min-height": "100%",
-              "writing-mode": "vertical-rl"
-            },
-            ".text-block": {
-              "position": "relative",
-              "z-index": "0"
-            },
-            ".box": {
-              "width": "25%",
-              "height": "40%",
-              "background": "@squareColor",
-              "position": "absolute",
-              "top": "4%"
-            },
-            "& when (@reverseContent)": {
-              ".row": {
-                "flex-direction": "row-reverse"
+            ".image-block": {
+              "margin": "auto",
+              "img": {
+                "width": "100%"
               },
-              ".box": {
-                "right": "20%"
-              },
-              ".text-box": {
-                "right": "0"
-              },
-              ".mbr-section-title, .mbr-section-text": {
-                "margin-right": "31%",
-                "& when not (@showVerticalText)": {
-                  "margin-right": "0"
-                }
-              }
-            },
-            "& when not (@reverseContent)": {
-              ".box": {
-                "left": "20%"
-              },
-              ".text-box": {
-                "left": "0",
-                "transform": "rotate(180deg)"
-              },
-              ".mbr-section-text, .mbr-section-title": {
-                "margin-left": "31%",
-                "& when not (@showVerticalText)": {
-                  "margin-left": "0"
-                }
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".text-box": {
-                "display": "none"
-              },
-              ".mbr-section-title, .mbr-section-text": {
-                "margin": "auto"
+              "& when (@fullWidth)": {
+                "width": "100% !important"
               }
             },
             "@media (max-width: 767px)": {
-              ".box": {
-                "display": "none"
-              },
-              ".row": {
-                "flex-direction": "column-reverse"
-              },
-              ".img-block": {
-                "margin-bottom": "1rem"
+              ".image-block": {
+                "width": "100% !important"
               }
-            },
-            "@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)": {
-              ".text-box": {
-                "writing-mode": "bt-rl"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#125568"
-            },
-            ".mbr-section-text DIV": {
-              "color": "#444444"
-            },
-            ".mbr-section-text": {
-              "color": "#3789a0"
             }
           },
-          "_name": "features6",
-          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Square\" name=\"showSquare\" condition=\"showMedia\">\n        <input type=\"color\" title=\"Square Color\" name=\"squareColor\" value=\"#e2f7df\" condition=\"showMedia && showSquare\">\n        <input type=\"checkbox\" title=\"Show Vertical Text\" name=\"showVerticalText\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" condition=\"showMedia\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#efefef\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3789a0\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"box\" mbr-if=\"showMedia && showSquare\"></div>\n            <div class=\"col-sm-12 text-block\" mbr-class=\"{'col-md-10': !showMedia,\n                             'col-md-6': showMedia}\">\n                <div class=\"mbr-white text-box mbr-fonts-style align-center mbr-bold\" mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showVerticalText\" data-app-selector=\".text-box\">MEET OUR CHEF</div>\n                <h3 class=\"mbr-white mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                'align-left': !reverseContent}\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Carlos Romero</h3>\n                <div mbr-text class=\"mbr-white mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                 'align-left': !reverseContent}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">Founder of Livin’ Inspired, Co-Founder of SOHA, Yin Yoga, Vinyasa Flow, Thai Massage, Sacred Sound Healing<div>Surfyogi devoted Yoga teacher, who has been immersed in the journey of self-exploration through Yoga for over 15 years. After finishing his first Yoga Teacher Training in Sivananda Divine Life Society School (2002) he has continued to deepen his Yoga practice and expand the scope of his studies in Asthanga, Vinyasa, Jivamukti, Dharma Mittra Yoga, Anusara, Yin and Embodied Flow. In 2005, he became a Thai Yoga Massage therapist and continued his exploration and studies into other forms of movement &amp; healing. He then discovered AcroYoga on a surf trip and since then has been dedicated to share this practice as a way to explore connection and confidence to all those who feel the beauty of combining Yoga, acrobatics &amp; healing arts.</div><div>The Essence of Carlos’s teaching is to bring joy, inspiration and ancient wisdom from different arts into one, to experience yoga as a beautiful way to celebrate life and to embrace spirit which manifests within and all around.</div><div><br></div><div>\n                    <a href=\"#\" class=\"text-primary\">Read &nbsp;more about Carlos Romero</a>&nbsp;</div></div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/soha-carlos-romero-yoga-bali-1-600x400.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "features6-2r",
+          "_name": "image1",
+          "_customHTML": "<section group=\"Images & Videos\" class=\"image1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"20\" step=\"1\" condition=\"fullWidth == false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"fullWidth == false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#69b9d0\" condition=\"gradientBg && fullWidth == false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth == false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/tymi-howard-yoga-presenter-retina-444x200.png\" alt title>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image1-3q",
           "_isUserblock": true,
-          "_cid": "qEFju4KQ7y",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".text-box": {
-              "position": "absolute",
-              "top": "0px",
-              "min-height": "100%",
-              "writing-mode": "vertical-rl"
-            },
-            ".text-block": {
-              "position": "relative",
-              "z-index": "0"
-            },
-            ".box": {
-              "width": "25%",
-              "height": "40%",
-              "background": "@squareColor",
-              "position": "absolute",
-              "top": "4%"
-            },
-            "& when (@reverseContent)": {
-              ".row": {
-                "flex-direction": "row-reverse"
-              },
-              ".box": {
-                "right": "20%"
-              },
-              ".text-box": {
-                "right": "0"
-              },
-              ".mbr-section-title, .mbr-section-text": {
-                "margin-right": "31%",
-                "& when not (@showVerticalText)": {
-                  "margin-right": "0"
-                }
-              }
-            },
-            "& when not (@reverseContent)": {
-              ".box": {
-                "left": "20%"
-              },
-              ".text-box": {
-                "left": "0",
-                "transform": "rotate(180deg)"
-              },
-              ".mbr-section-text, .mbr-section-title": {
-                "margin-left": "31%",
-                "& when not (@showVerticalText)": {
-                  "margin-left": "0"
-                }
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".text-box": {
-                "display": "none"
-              },
-              ".mbr-section-title, .mbr-section-text": {
-                "margin": "auto"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".box": {
-                "display": "none"
-              },
-              ".row": {
-                "flex-direction": "column-reverse"
-              },
-              ".img-block": {
-                "margin-bottom": "1rem"
-              }
-            },
-            "@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)": {
-              ".text-box": {
-                "writing-mode": "bt-rl"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#125568"
-            },
-            ".mbr-section-text DIV": {
-              "color": "#444444"
-            },
-            ".mbr-section-text": {
-              "color": "#3789a0"
-            }
-          },
-          "_name": "features6",
-          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Square\" name=\"showSquare\" condition=\"showMedia\">\n        <input type=\"color\" title=\"Square Color\" name=\"squareColor\" value=\"#e2f7df\" condition=\"showMedia && showSquare\">\n        <input type=\"checkbox\" title=\"Show Vertical Text\" name=\"showVerticalText\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" condition=\"showMedia\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#e5eff3\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3789a0\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"box\" mbr-if=\"showMedia && showSquare\"></div>\n            <div class=\"col-sm-12 text-block\" mbr-class=\"{'col-md-10': !showMedia,\n                             'col-md-6': showMedia}\">\n                <div class=\"mbr-white text-box mbr-fonts-style align-center mbr-bold\" mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showVerticalText\" data-app-selector=\".text-box\">MEET OUR CHEF</div>\n                <h3 class=\"mbr-white mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                'align-left': !reverseContent}\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Daniela Garza</h3>\n                <div mbr-text class=\"mbr-white mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                 'align-left': !reverseContent}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">Founder of SOHA: School of Healing Arts, Yoga TT, Co-founder and Spiritual Director of Sutra Yoga Monterrey. Double Degree in Monterrey and France&nbsp;<div>Certified in Osteopathy &amp; Bioenergetics, Medical Magnet Therapy, Natural Medicine, Mandala Vinyasa, Prana Flow, Krama Yoga, Tantra Yoga, Acroyoga, and Thai Massage. World Traveler, Daniela has been immersed more than 15 years in bodywork and spiritual practices. Freedom, Wisdom, and Love gravitate around her shared practices. Devoted service, clear technique, and sensitive awareness are present through her teachings. Her work as a Yoga and Holistic practitioner inspires deep understanding and healing. She emphasizes in acquiring awareness and sensitivity on how to listen, feel, and support each individual energy back to the Self. Currently she offers workshops, retreats, bodywork, and trainings around the world including the sacred arts of Alternative Medicine, Healing Arts, Yoga, and Acroyoga.</div><div>“We pulse as one. We gravitate to unify the global family, celebrate soul interconnectedness, and offer full devotion to divine Self.” – Daniela</div><div><br></div><div>\n                    Learn more: <i><a href=\"http://www.danielamandala.com/\" target=\"_blank\">www.danielamandala.com</a></i></div></div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/daniela-garza-soha-5-1080x1080.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "features6-2t",
-          "_isUserblock": true,
-          "_cid": "qEFlJbsJoU",
+          "_cid": "qHug2bDlpK",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2917,79 +2713,50 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text, .ornament B": {
-              "color": "#125568"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffbc00\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-5\"><b>ABOUT THE YOGA BARN</b><br>The Yoga Barn is a gem in a sacred paradise. Love and inspiration have been built into the artistically crafted studio and retreat center. As a center dedicated to healing and renewal,&nbsp;The Yoga Barn provides a lush and inspiring environment for the nourishment of body, mind and soul right in the center of Ubud, Bali.&nbsp;</p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-2v",
-          "_isUserblock": true,
-          "_cid": "qEFoncNigw",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@gradientBg)": {
-                "background": "linear-gradient(90deg, @bg-value, @color2)"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".text-content .btn-bgr": {
-              "z-index": "0"
-            },
-            ".mbr-overlay": {
-              "background": "@overlayColor",
-              "& when (@gradientOverlay)": {
-                "background": "linear-gradient(135deg, @overlayColor, @overlayColor2)"
-              }
-            },
-            ".content-row": {
-              "& when (@mediaPos)": {
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".text-content": {
-              "padding": "2rem 0rem",
-              "background-color": "@cardBgColor"
-            },
-            ".mbr-section-btn": {
-              "margin-left": "-0.8rem"
-            },
-            ".media-container-row": {
-              "padding-left": "1rem",
-              "padding-right": "1rem"
-            },
             ".mbr-text": {
-              "@media (max-width: 767px)": {
-                "text-align": "center"
+              "position": "relative",
+              "color": "#444444"
+            },
+            ".mbr-text:before": {
+              "color": "@quotesColor",
+              "content": "\"\\201C\"",
+              "font-size": "3em",
+              "line-height": "0.1em",
+              "margin-right": "0.2em",
+              "vertical-align": "-0.4em",
+              "position": "absolute",
+              "top": "10px",
+              "left": "-2rem"
+            },
+            ".mbr-text:after": {
+              "color": "@quotesColor",
+              "content": "\"\\201D\"",
+              "font-size": "3em",
+              "line-height": "0.1em",
+              "vertical-align": "-0.45em",
+              "position": "absolute",
+              "bottom": "10px",
+              "right": "-2rem"
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-text:after, .mbr-text:before": {
+                "display": "none"
               }
             },
-            "@media (max-width: 991px)": {
-              ".text-content": {
-                "margin-bottom": "2rem"
-              }
+            ".mbr-section-title, .logo": {
+              "color": "#125568"
             },
             "P": {
               "text-align": "center"
             },
-            ".mbr-section-btn, .mbr-section-title": {
-              "text-align": "center"
+            ".mbr-section-title, .logo B": {
+              "color": "#9f3942"
             }
           },
-          "_name": "features8",
-          "_customHTML": "<section class=\"features8\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media on right/left\" name=\"mediaPos\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"cardBgColor\" value=\"#faeccb\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/yoga-in-bali-8653-2000x13334.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#1ec5bf\" condition=\"gradientBg&& bg.type=='color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" condition=\"bg.type !== 'color' && overlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" condition=\"overlay && bg.type !== 'color' && gradientOverlay\" value=\"#85bfd0\">\n        \n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row align-items-center justify-content-center content-row\">\n            <div class=\"content-block col-md-12 col-lg-5\" mbr-if=\"showTitle||showText||showSubtitle||showButtons\">\n                <div class=\"text-content\">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-md-12 \">\n                            <h2 class=\"mb-4 mbr-fonts-style mbr-section-title mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-btn, .mbr-section-title\">SOHA:   School   of   Healing   Arts 200hrs   Yoga   Teacher   Training <br></h2>\n                            <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-4 mbr-black\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Click any text to edit or style it. Select text to insert a link.</h3>\n                            <p class=\"mb-4 mbr-fonts-style mbr-black\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">May 5 – 27, 2019,   2018<br>&nbsp;22 days   of   Transformation!<br>@ The Yoga Barn in Ubud, Bali<br><b>EARLY BIRD:</b> $3,550 USD <br>&nbsp;(due in full by February 5th, 2019)<br><b>Regular Pricing: </b>$3,750USD<br><b>$500 USD Deposit saves your spot in the training</b>!<br>($20 service fee applies, final payments via bank transfer)<br></p>\n                            <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-bgr btn-primary\" href=\"https://danielamandala.com/registration-form/\" target=\"_blank\" data-app-placeholder=\"Type Text\">YES! REGISTER NOW</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-7 col-md-12\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://youtu.be/oNv7WRK4MLk?loop=0&autoplay=0\"></iframe>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qEnmNlhTZK",
-          "_anchor": "features8-25",
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <div class=\"logo align-center\" mbr-class=\"{'pb-5': !showTitle,\n                                 'pb-3': showTitle}\" mbr-if=\"showLogo\">\n                    <a href=\"https://livininspired.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/soha-logo400-400x400.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </div>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center pb-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .logo\" mbr-if=\"showTitle\"><b>GURUV YOGA STUDIOS 200/300HR YOGA TEACHER TRAINING 10 MONTH TRACK<br>Program Starts: </b>January 5th, 2019 •&nbsp;<b>Graduation Date: </b>October 27th, 2019<br><br><div><b>EARLY BIRD:</b> $2,999 USD  (due in full by December 15th, 2019) •<b> Regurlar Price</b> $3,200USD (paid in full by January 1st, 2019)</div><div><b>Financed Option:</b> $3,500 Financed ($200 application fee, $1000 deposit &amp; 10 monthly payments of $250)<br><b>$200 USD SEPARATE FROM TUITION APPLICATION FEE</b></div><div>(Application fee is non-refundanble &amp; guarantees your spot on the program • space is limited)</div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">The program is a 10 month • 10 Module format that will meet one weekend per month, beginning on a Friday evening and ending on a Sunday evening. Because of the nature of this training, missed modules can be “made up” the following year or at a later date, at other teaching locations as long as it is with Guruv Yoga or THY (Tymi Howard Yoga). Start at your own pace!<br>Training can be spread out and completed over the course of 2 years.<br></p><center><a class=\"btn btn-md btn-bgr btn-primary\" href=\"https://tymihowardyoga.as.me/schedule.php\" target=\"_blank\">YES! REGISTER NOW</a></center><p>200/300 Hour Yoga Teacher Training certification program in Vinyasa &amp; Yin Yoga will qualify and fulfill requirements  to register with the Yoga Alliance at the 500 Level.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qEn7VwbZ8A",
+          "_anchor": "content2-1w",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
@@ -3028,7 +2795,7 @@
             }
           },
           "_name": "content3",
-          "_customHTML": "<section group=\"Content\" class=\"content3 popup-btn-cards\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value=\"https://danielamandala.com/registration-form/\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#69b9d0\" selected>\n        </fieldset>\n\n        <input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#125568\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a class=\"full-link\" href=\"{{linkValue}}\"></a>\n    <div class=\"container card-wrapper\">\n        <div class=\"row justify-content-center align-items-center\" mbr-style=\"{'height':blockHeight + 'vw'}\">\n             <div class=\"col-sm-12 col-md-10 text-block align-center\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-light mbr-white mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title, .text-block\">Register with deposit of $500USD to Save your Spot!!</h2>                 \n             </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Content\" class=\"content3 popup-btn-cards\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value=\"https://danielamandala.com/registration-form/\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#3789a0\" selected>\n        </fieldset>\n\n        <input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#125568\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a class=\"full-link\" href=\"{{linkValue}}\"></a>\n    <div class=\"container card-wrapper\">\n        <div class=\"row justify-content-center align-items-center\" mbr-style=\"{'height':blockHeight + 'vw'}\">\n             <div class=\"col-sm-12 col-md-10 text-block align-center\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-light mbr-white mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title, .text-block\">Click for More Upcoming Events &amp; Yoga Immersions</h2>                 \n             </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qEn7VxL054",
           "_anchor": "content3-1z",
           "_protectedParams": [],
@@ -3043,7 +2810,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#f9e2af\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-5\">Any questions? We are happy to help! Please send us a message at <a href=\"mailto:info@livininspired.com\">info@livininspired.com</a></p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#f9e2af\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-2\">Any questions? We are happy to help! Please send us a message at <a href=\"mailto:admin@tymihoward.com\">admin@tymihoward.com</a></p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qHEQ6dxLot",
           "_anchor": "content1-3w",
           "_protectedParams": [],
@@ -3232,7 +2999,7 @@
             }
           },
           "_name": "features6",
-          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Square\" name=\"showSquare\" condition=\"showMedia\">\n        <input type=\"color\" title=\"Square Color\" name=\"squareColor\" value=\"#e2f7df\" condition=\"showMedia && showSquare\">\n        <input type=\"checkbox\" title=\"Show Vertical Text\" name=\"showVerticalText\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" checked condition=\"showMedia\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@assets/images/background7.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#85bfd0\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3789a0\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"box\" mbr-if=\"showMedia && showSquare\"></div>\n            <div class=\"col-sm-12 text-block\" mbr-class=\"{'col-md-10': !showMedia,\n                             'col-md-6': showMedia}\">\n                <div class=\"mbr-white text-box mbr-fonts-style align-center mbr-bold\" mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showVerticalText\" data-app-selector=\".text-box\">MEET OUR CHEF</div>\n                <h3 class=\"mbr-white mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                'align-left': !reverseContent}\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\"LOVE INSPIRED\" RETREAT</h3>\n                <div mbr-text class=\"mbr-white mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                 'align-left': !reverseContent}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">SEPTEMBER 22-28, 2018 • IBIZA, SPAIN<br><br><div>Join the inspiring duo, Carlos Romero and Jo Lewins for a week of Yoga, meditation, and embodiment practices at a stunning finca, nestled in the heart of magical Ibiza. We invite you to take a break from the buzz of media and technology and instead immerse yourself in these nourishing practices, delicious food, lush natural surroundings, healing therapies and the crystal clear ocean nearby.&nbsp;</div><div><a href=\"https://www.supersoul.yoga/journey/events/love-inspired-retreat.html\" class=\"text-primary\" target=\"_blank\">Registraction Now Open! Click here to learn more</a>\n                </div></div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1704-togat-nusa-2939-1300x8674.jpg\" alt=\"Super Soul Yoga Retreat\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Square\" name=\"showSquare\" condition=\"showMedia\">\n        <input type=\"color\" title=\"Square Color\" name=\"squareColor\" value=\"#e2f7df\" condition=\"showMedia && showSquare\">\n        <input type=\"checkbox\" title=\"Show Vertical Text\" name=\"showVerticalText\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" checked condition=\"showMedia\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@assets/images/background7.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#85bfd0\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3789a0\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"box\" mbr-if=\"showMedia && showSquare\"></div>\n            <div class=\"col-sm-12 text-block\" mbr-class=\"{'col-md-10': !showMedia,\n                             'col-md-6': showMedia}\">\n                <div class=\"mbr-white text-box mbr-fonts-style align-center mbr-bold\" mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showVerticalText\" data-app-selector=\".text-box\">MEET OUR CHEF</div>\n                <h3 class=\"mbr-white mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                'align-left': !reverseContent}\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\"LOVE INSPIRED\" RETREAT</h3>\n                <div mbr-text class=\"mbr-white mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                 'align-left': !reverseContent}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">SEPTEMBER 22-28, 2018 • IBIZA, SPAIN<br><br><div>Join the inspiring duo, Carlos Romero and Jo Lewins for a week of Yoga, meditation, and embodiment practices at a stunning finca, nestled in the heart of magical Ibiza. We invite you to take a break from the buzz of media and technology and instead immerse yourself in these nourishing practices, delicious food, lush natural surroundings, healing therapies and the crystal clear ocean nearby.&nbsp;</div><div><a href=\"https://www.supersoul.yoga/journey/events/love-inspired-retreat.html\" class=\"text-primary\" target=\"_blank\">Registraction Now Open! Click here to learn more</a>\n                </div></div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1704-togat-nusa-2939-1300x8676.jpg\" alt=\"Super Soul Yoga Retreat\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "features6-4l",
           "_isUserblock": true,
           "_cid": "qOaqbkb46D",
@@ -7044,7 +6811,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"7.6\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <div class=\"logo align-center\" mbr-class=\"{'pb-5': !showTitle,\n                                 'pb-3': showTitle}\" mbr-if=\"showLogo\">\n                    \n                        <img src=\"@PROJECT_PATH@/assets/images/soha-logo-horizontal-500x1945.png\" alt=\"School of Healing Arts\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </div>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center pb-4\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title, .logo\" mbr-if=\"showTitle\">INNER PATHWAYS<div>July 31st - August 11th, 2018<br>The Yoga Barn, Ubud Bali</div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-2\">100HR Advanced Yoga Teacher Training<br>&nbsp;Chinese Medicine Meets Thai Yoga Massage<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"7.6\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <div class=\"logo align-center\" mbr-class=\"{'pb-5': !showTitle,\n                                 'pb-3': showTitle}\" mbr-if=\"showLogo\">\n                    \n                        <img src=\"@PROJECT_PATH@/assets/images/soha-logo-horizontal-500x194.png\" alt=\"School of Healing Arts\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </div>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center pb-4\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title, .logo\" mbr-if=\"showTitle\">INNER PATHWAYS<div>July 31st - August 11th, 2018<br>The Yoga Barn, Ubud Bali</div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-2\">100HR Advanced Yoga Teacher Training<br>&nbsp;Chinese Medicine Meets Thai Yoga Massage<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qOa2qi6koQ",
           "_anchor": "content2-3y",
           "_protectedParams": [],

@@ -2366,7 +2366,7 @@ body {
 .cid-qEnbQpbjAx .box {
   width: 25%;
   height: 40%;
-  background: #ffda73;
+  background: #f9e2af;
   position: absolute;
   top: 4%;
 }
@@ -2408,51 +2408,242 @@ body {
 }
 .cid-qEnbQpbjAx .mbr-section-title {
   text-align: right;
+  color: #9f3942;
 }
 .cid-qEnbQpbjAx .mbr-section-text {
   color: #444444;
 }
-.cid-qEn7VviMAX {
-  padding-top: 105px;
+.cid-raTXWL2ymR {
+  padding-top: 15px;
   padding-bottom: 30px;
-  background-color: #f7eace;
+  background: #ffffff;
 }
-.cid-qEn7VviMAX .text-block {
-  padding-right: 5rem;
+.cid-raTXWL2ymR .image-block {
+  margin: auto;
 }
-.cid-qEn7VviMAX .underline {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-}
-.cid-qEn7VviMAX .underline .line {
-  width: 5rem;
-  height: 3px;
-  background: #85bfd0;
-  display: inline-block;
-}
-.cid-qEn7VviMAX .social-media ul li {
-  margin: 0;
-  margin-left: 1rem;
-}
-.cid-qEn7VviMAX .social-media ul li .mbr-iconfont {
-  color: #000000;
-}
-.cid-qEn7VviMAX .social-media ul li .mbr-iconfont:hover {
-  color: #cccccc;
+.cid-raTXWL2ymR .image-block img {
+  width: 100%;
 }
 @media (max-width: 767px) {
-  .cid-qEn7VviMAX .row {
-    flex-direction: column-reverse;
-  }
-  .cid-qEn7VviMAX .img-block {
-    margin-bottom: 1rem;
-  }
-  .cid-qEn7VviMAX .text-block {
-    padding: 0 15px;
+  .cid-raTXWL2ymR .image-block {
+    width: 100% !important;
   }
 }
-.cid-qEn7VviMAX .mbr-section-subtitle I {
-  color: #125568;
+.cid-raTXsNAZgr {
+  padding-top: 45px;
+  padding-bottom: 75px;
+  background-color: #9f3942;
+  transition: background-color 0.3s ease-in-out;
+}
+.cid-raTXsNAZgr:hover {
+  background-color: #9f3942;
+}
+.cid-raTXsNAZgr .mbr-section-title {
+  margin: 0;
+}
+.cid-raTXsNAZgr .card-wrapper {
+  z-index: 3;
+}
+.cid-raTXsNAZgr .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-raTXsNAZgr .popup-btn.card-wrapper {
+  z-index: 1 !important;
+}
+.cid-raTVb3UMcX {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-raTVb3UMcX .text-content .btn-bgr {
+  z-index: 0;
+}
+.cid-raTVb3UMcX .mbr-overlay {
+  background: #ffffff;
+}
+.cid-raTVb3UMcX .content-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.cid-raTVb3UMcX .text-content {
+  padding: 2rem 0rem;
+  background-color: #f9e2af;
+}
+.cid-raTVb3UMcX .mbr-section-btn {
+  margin-left: -0.8rem;
+}
+.cid-raTVb3UMcX .media-container-row {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (max-width: 767px) {
+  .cid-raTVb3UMcX .mbr-text {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .cid-raTVb3UMcX .text-content {
+    margin-bottom: 2rem;
+  }
+}
+.cid-qEnoPsCZrS {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-color: #700c15;
+}
+.cid-qEnoPsCZrS .mbr-text,
+.cid-qEnoPsCZrS .ornament B {
+  color: #9f3942;
+}
+.cid-qEnoPsCZrS .mbr-text,
+.cid-qEnoPsCZrS .ornament {
+  color: #ffffff;
+}
+.cid-raU0Y4Jp5U {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/tymi-79-preview-2000x1333.jpg");
+}
+.cid-raU0Y4Jp5U .img-wrap {
+  width: 100% !important;
+  height: 100% !important;
+}
+.cid-raU0Y4Jp5U .main-reverse {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.cid-raU0Y4Jp5U .image-element {
+  padding: 0;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-raU0Y4Jp5U .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.cid-raU0Y4Jp5U .text-element {
+  padding: 1rem;
+}
+.cid-raU0Y4Jp5U .main,
+.cid-raU0Y4Jp5U .main-reverse {
+  background: #fff8f0;
+}
+@media (max-width: 991px) {
+  .cid-raU0Y4Jp5U .main:first-child {
+    padding-top: 1rem;
+  }
+  .cid-raU0Y4Jp5U .image-element,
+  .cid-raU0Y4Jp5U .text-element {
+    margin-bottom: 1rem;
+  }
+  .cid-raU0Y4Jp5U .main-reverse {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+  }
+}
+@media (max-width: 767px) {
+  .cid-raU0Y4Jp5U .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .cid-raU0Y4Jp5U .image-element,
+  .cid-raU0Y4Jp5U .text-element {
+    margin-bottom: 0;
+  }
+  .cid-raU0Y4Jp5U .main:first-child {
+    padding-top: 0;
+  }
+}
+.cid-raU8eskqh3 {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-raU8eskqh3 .mbr-text,
+.cid-raU8eskqh3 .ornament B {
+  color: #9f3942;
+}
+.cid-raU8eskqh3 .mbr-text,
+.cid-raU8eskqh3 .ornament {
+  color: #444444;
+}
+.cid-qEnfev3cnZ {
+  background-image: url("../../../assets/images/yoga-barn-bali-tymi-1280x960.jpg");
+}
+.cid-qEnfev3cnZ .form-block {
+  background: #444444;
+  padding: 2rem;
+  outline: 1px dashed #ffda73;
+  outline-offset: -15px;
+}
+.cid-qEnfev3cnZ .mbr-section-title {
+  margin: 0;
+}
+.cid-qEnfev3cnZ .row {
+  justify-content: space-between;
+  align-items: center;
+}
+.cid-qEnfev3cnZ .input-wrap {
+  padding: 0;
+  margin-bottom: 1.3em;
+}
+.cid-qEnfev3cnZ .input-wrap input {
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: .5rem 1rem;
+}
+.cid-qEnfev3cnZ .mbr-section-btn .btn {
+  margin-left: 4px !important;
+}
+.cid-qEnfev3cnZ .input-group-btn {
+  display: block;
+}
+@media (max-width: 767px) {
+  .cid-qEnfev3cnZ .text-element {
+    padding-bottom: 1rem;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .cid-qEnfev3cnZ .form-block {
+    border: 1px dashed #ffda73;
+    outline: 15px solid #444444;
+  }
+}
+.cid-qEFkLK7r0D {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #d48336;
+  transition: background-color 0.3s ease-in-out;
+}
+.cid-qEFkLK7r0D:hover {
+  background-color: #d48336;
+}
+.cid-qEFkLK7r0D .mbr-section-title {
+  margin: 0;
+}
+.cid-qEFkLK7r0D .card-wrapper {
+  z-index: 3;
+}
+.cid-qEFkLK7r0D .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-qEFkLK7r0D .popup-btn.card-wrapper {
+  z-index: 1 !important;
 }
 .cid-qHug2bDlpK {
   padding-top: 15px;
@@ -2510,364 +2701,17 @@ body {
 .cid-qEn7VwbZ8A .logo {
   color: #125568;
 }
-.cid-qEnfev3cnZ {
-  background-image: url("../../../assets/images/yoga-in-bali-9263-2000x13333.jpg");
-}
-.cid-qEnfev3cnZ .form-block {
-  background: #444444;
-  padding: 2rem;
-  outline: 1px dashed #ffda73;
-  outline-offset: -15px;
-}
-.cid-qEnfev3cnZ .mbr-section-title {
-  margin: 0;
-}
-.cid-qEnfev3cnZ .row {
-  justify-content: space-between;
-  align-items: center;
-}
-.cid-qEnfev3cnZ .input-wrap {
-  padding: 0;
-  margin-bottom: 1.3em;
-}
-.cid-qEnfev3cnZ .input-wrap input {
-  border: 1px solid #ddd;
-  width: 100%;
-  padding: .5rem 1rem;
-}
-.cid-qEnfev3cnZ .mbr-section-btn .btn {
-  margin-left: 4px !important;
-}
-.cid-qEnfev3cnZ .input-group-btn {
-  display: block;
-}
-@media (max-width: 767px) {
-  .cid-qEnfev3cnZ .text-element {
-    padding-bottom: 1rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .cid-qEnfev3cnZ .form-block {
-    border: 1px dashed #ffda73;
-    outline: 15px solid #444444;
-  }
-}
-.cid-qEFnZQnh3A {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #3789a0;
-  transition: background-color 0.3s ease-in-out;
-}
-.cid-qEFnZQnh3A:hover {
-  background-color: #3789a0;
-}
-.cid-qEFnZQnh3A .mbr-section-title {
-  margin: 0;
-}
-.cid-qEFnZQnh3A .card-wrapper {
-  z-index: 3;
-}
-.cid-qEFnZQnh3A .full-link {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 0;
-  z-index: 2;
-}
-.cid-qEFnZQnh3A .popup-btn.card-wrapper {
-  z-index: 1 !important;
-}
-.cid-qEnh8fV97H {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #125568;
-}
-.cid-qEnh8fV97H .img-wrap {
-  width: 100% !important;
-  height: 100% !important;
-}
-.cid-qEnh8fV97H .main-reverse {
-  flex-direction: row-reverse;
-}
-.cid-qEnh8fV97H .image-element {
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-.cid-qEnh8fV97H .image-element img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center;
-}
-.cid-qEnh8fV97H .text-element {
-  padding: 1rem;
-}
-.cid-qEnh8fV97H .main,
-.cid-qEnh8fV97H .main-reverse {
-  background: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-qEnh8fV97H .main:first-child {
-    padding-top: 1rem;
-  }
-  .cid-qEnh8fV97H .image-element,
-  .cid-qEnh8fV97H .text-element {
-    margin-bottom: 1rem;
-  }
-  .cid-qEnh8fV97H .main-reverse {
-    flex-direction: row;
-  }
-}
-@media (max-width: 767px) {
-  .cid-qEnh8fV97H .container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  .cid-qEnh8fV97H .image-element,
-  .cid-qEnh8fV97H .text-element {
-    margin-bottom: 0;
-  }
-  .cid-qEnh8fV97H .main:first-child {
-    padding-top: 0;
-  }
-}
-.cid-qEnh8fV97H .mbr-text {
-  text-align: left;
-}
-.cid-qEnh8fV97H .mbr-title,
-.cid-qEnh8fV97H .underline {
-  text-align: left;
-}
-.cid-qEnoPsCZrS {
-  padding-top: 45px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
-}
-.cid-qEnoPsCZrS .mbr-text,
-.cid-qEnoPsCZrS .ornament B {
-  color: #125568;
-}
-.cid-qEFkLK7r0D {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #125568;
-  transition: background-color 0.3s ease-in-out;
-}
-.cid-qEFkLK7r0D:hover {
-  background-color: #125568;
-}
-.cid-qEFkLK7r0D .mbr-section-title {
-  margin: 0;
-}
-.cid-qEFkLK7r0D .card-wrapper {
-  z-index: 3;
-}
-.cid-qEFkLK7r0D .full-link {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 0;
-  z-index: 2;
-}
-.cid-qEFkLK7r0D .popup-btn.card-wrapper {
-  z-index: 1 !important;
-}
-.cid-qEFju4KQ7y {
-  padding-top: 90px;
-  padding-bottom: 30px;
-  background-color: #efefef;
-}
-.cid-qEFju4KQ7y .text-box {
-  position: absolute;
-  top: 0px;
-  min-height: 100%;
-  writing-mode: vertical-rl;
-}
-.cid-qEFju4KQ7y .text-block {
-  position: relative;
-  z-index: 0;
-}
-.cid-qEFju4KQ7y .box {
-  width: 25%;
-  height: 40%;
-  background: #e2f7df;
-  position: absolute;
-  top: 4%;
-}
-.cid-qEFju4KQ7y .box {
-  left: 20%;
-}
-.cid-qEFju4KQ7y .text-box {
-  left: 0;
-  transform: rotate(180deg);
-}
-.cid-qEFju4KQ7y .mbr-section-text,
-.cid-qEFju4KQ7y .mbr-section-title {
-  margin-left: 31%;
-  margin-left: 0;
-}
-@media (max-width: 991px) {
-  .cid-qEFju4KQ7y .text-box {
-    display: none;
-  }
-  .cid-qEFju4KQ7y .mbr-section-title,
-  .cid-qEFju4KQ7y .mbr-section-text {
-    margin: auto;
-  }
-}
-@media (max-width: 767px) {
-  .cid-qEFju4KQ7y .box {
-    display: none;
-  }
-  .cid-qEFju4KQ7y .row {
-    flex-direction: column-reverse;
-  }
-  .cid-qEFju4KQ7y .img-block {
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .cid-qEFju4KQ7y .text-box {
-    writing-mode: bt-rl;
-  }
-}
-.cid-qEFju4KQ7y .mbr-section-title {
-  color: #125568;
-}
-.cid-qEFju4KQ7y .mbr-section-text DIV {
-  color: #444444;
-}
-.cid-qEFju4KQ7y .mbr-section-text {
-  color: #3789a0;
-}
-.cid-qEFlJbsJoU {
-  padding-top: 90px;
-  padding-bottom: 30px;
-  background-color: #e5eff3;
-}
-.cid-qEFlJbsJoU .text-box {
-  position: absolute;
-  top: 0px;
-  min-height: 100%;
-  writing-mode: vertical-rl;
-}
-.cid-qEFlJbsJoU .text-block {
-  position: relative;
-  z-index: 0;
-}
-.cid-qEFlJbsJoU .box {
-  width: 25%;
-  height: 40%;
-  background: #e2f7df;
-  position: absolute;
-  top: 4%;
-}
-.cid-qEFlJbsJoU .box {
-  left: 20%;
-}
-.cid-qEFlJbsJoU .text-box {
-  left: 0;
-  transform: rotate(180deg);
-}
-.cid-qEFlJbsJoU .mbr-section-text,
-.cid-qEFlJbsJoU .mbr-section-title {
-  margin-left: 31%;
-  margin-left: 0;
-}
-@media (max-width: 991px) {
-  .cid-qEFlJbsJoU .text-box {
-    display: none;
-  }
-  .cid-qEFlJbsJoU .mbr-section-title,
-  .cid-qEFlJbsJoU .mbr-section-text {
-    margin: auto;
-  }
-}
-@media (max-width: 767px) {
-  .cid-qEFlJbsJoU .box {
-    display: none;
-  }
-  .cid-qEFlJbsJoU .row {
-    flex-direction: column-reverse;
-  }
-  .cid-qEFlJbsJoU .img-block {
-    margin-bottom: 1rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .cid-qEFlJbsJoU .text-box {
-    writing-mode: bt-rl;
-  }
-}
-.cid-qEFlJbsJoU .mbr-section-title {
-  color: #125568;
-}
-.cid-qEFlJbsJoU .mbr-section-text DIV {
-  color: #444444;
-}
-.cid-qEFlJbsJoU .mbr-section-text {
-  color: #3789a0;
-}
-.cid-qEFoncNigw {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
-}
-.cid-qEFoncNigw .mbr-text,
-.cid-qEFoncNigw .ornament B {
-  color: #125568;
-}
-.cid-qEnmNlhTZK {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/yoga-in-bali-8653-2000x13334.jpg");
-}
-.cid-qEnmNlhTZK .text-content .btn-bgr {
-  z-index: 0;
-}
-.cid-qEnmNlhTZK .mbr-overlay {
-  background: #ffffff;
-}
-.cid-qEnmNlhTZK .content-row {
-  flex-direction: row-reverse;
-}
-.cid-qEnmNlhTZK .text-content {
-  padding: 2rem 0rem;
-  background-color: #faeccb;
-}
-.cid-qEnmNlhTZK .mbr-section-btn {
-  margin-left: -0.8rem;
-}
-.cid-qEnmNlhTZK .media-container-row {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-@media (max-width: 767px) {
-  .cid-qEnmNlhTZK .mbr-text {
-    text-align: center;
-  }
-}
-@media (max-width: 991px) {
-  .cid-qEnmNlhTZK .text-content {
-    margin-bottom: 2rem;
-  }
-}
-.cid-qEnmNlhTZK P {
+.cid-qEn7VwbZ8A P {
   text-align: center;
 }
-.cid-qEnmNlhTZK .mbr-section-btn,
-.cid-qEnmNlhTZK .mbr-section-title {
-  text-align: center;
+.cid-qEn7VwbZ8A .mbr-section-title,
+.cid-qEn7VwbZ8A .logo B {
+  color: #9f3942;
 }
 .cid-qEn7VxL054 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #69b9d0;
+  background-color: #3789a0;
   transition: background-color 0.3s ease-in-out;
 }
 .cid-qEn7VxL054:hover {
