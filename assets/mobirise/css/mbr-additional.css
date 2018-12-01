@@ -2377,6 +2377,7 @@ body {
 .cid-qEnbQpbjAx .mbr-section-text,
 .cid-qEnbQpbjAx .mbr-section-title {
   margin-left: 31%;
+  margin-left: 0;
 }
 @media (max-width: 991px) {
   .cid-qEnbQpbjAx .text-box {
@@ -2503,9 +2504,9 @@ body {
   color: #ffffff;
 }
 .cid-raU0Y4Jp5U {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/tymi-79-preview-2000x1333.jpg");
+  padding-top: 135px;
+  padding-bottom: 135px;
+  background-image: url("../../../assets/images/yoga-barn-tymi-master-class-1600x1200.jpg");
 }
 .cid-raU0Y4Jp5U .img-wrap {
   width: 100% !important;
