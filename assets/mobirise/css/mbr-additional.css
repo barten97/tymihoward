@@ -1112,7 +1112,7 @@ body {
   right: 0;
   margin: 0 auto;
   width: 80%;
-  background-color: #efefef;
+  background-color: #e7dacc;
   transition: all 0.4s ease-in-out;
 }
 .cid-qDIAlzfT1P .content-block .mbr-text {
@@ -1150,6 +1150,33 @@ body {
 }
 .cid-qDIAlzfT1P .mbr-text {
   color: #125568;
+}
+.cid-raZOCLyauh {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #d48336;
+  transition: background-color 0.3s ease-in-out;
+}
+.cid-raZOCLyauh:hover {
+  background-color: #d48336;
+}
+.cid-raZOCLyauh .mbr-section-title {
+  margin: 0;
+}
+.cid-raZOCLyauh .card-wrapper {
+  z-index: 3;
+}
+.cid-raZOCLyauh .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-raZOCLyauh .popup-btn.card-wrapper {
+  z-index: 1 !important;
 }
 .cid-qDINwIDc3O {
   padding-top: 60px;
@@ -1325,45 +1352,32 @@ body {
 .cid-qDIGnCnAcQ .mbr-section-title DIV {
   color: #9f3942;
 }
-#custom-html-30 {
-  background: #85bfd0;
-  color: #3D6392;
-  padding: 20px 15px;
+.cid-raZODtgfUf {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #3789a0;
+  transition: background-color 0.3s ease-in-out;
 }
-#custom-html-30 #mailchimp {
-  background: #85bfd0;
-  color: #3D6392;
-  padding: 20px 15px;
+.cid-raZODtgfUf:hover {
+  background-color: #125568;
 }
-#custom-html-30 #mailchimp input {
-  border: medium none;
-  color: gray;
-  font-family: ;
-  font-size: 16px;
-  font-style: ;
-  margin-bottom: 10px;
-  padding: 8px 10px;
-  width: 600px;
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
+.cid-raZODtgfUf .mbr-section-title {
+  margin: 0;
 }
-#custom-html-30 #mailchimp input.email {
-  background: #ffffff;
+.cid-raZODtgfUf .card-wrapper {
+  z-index: 3;
 }
-#custom-html-30 #mailchimp input.name {
-  background: #ffffff;
+.cid-raZODtgfUf .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
 }
-#custom-html-30 #mailchimp input[type="submit"] {
-  background: #115B87;
-  color: #fff;
-  cursor: pointer;
-  font-size: 15px;
-  width: 35%;
-  padding: 8px 0;
-}
-#custom-html-30 #mailchimp input[type="submit"]:hover {
-  color: #f2c94c;
+.cid-raZODtgfUf .popup-btn.card-wrapper {
+  z-index: 1 !important;
 }
 .cid-qDHA3CkF9G {
   padding-top: 45px;
@@ -2621,8 +2635,8 @@ body {
   }
 }
 .cid-qEFkLK7r0D {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #d48336;
   transition: background-color 0.3s ease-in-out;
 }
