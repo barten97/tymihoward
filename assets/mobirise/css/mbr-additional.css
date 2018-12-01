@@ -2821,7 +2821,7 @@ body {
 .cid-qOaqbkb46D {
   padding-top: 90px;
   padding-bottom: 30px;
-  background-color: #85bfd0;
+  background-color: #fff8f0;
 }
 .cid-qOaqbkb46D .text-box {
   position: absolute;
@@ -2879,10 +2879,20 @@ body {
     writing-mode: bt-rl;
   }
 }
+.cid-qOaqbkb46D .mbr-section-text DIV {
+  text-align: right;
+  color: #444444;
+}
+.cid-qOaqbkb46D .mbr-section-title {
+  color: #700c15;
+}
+.cid-qOaqbkb46D .mbr-section-text {
+  color: #961823;
+}
 .cid-qEF9jdqccQ {
   padding-top: 160px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/karina-carlos-7-2000x13335.jpg");
+  background-image: url("../../../assets/images/thy-bali-spirit-fest-2000x1333.jpg");
 }
 .cid-qEF9jdqccQ .btn-wrapper {
   width: 100%;
@@ -2955,11 +2965,11 @@ body {
 .cid-qEF8NS5xJv {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #125568;
+  background-color: #961823;
   transition: background-color 0.3s ease-in-out;
 }
 .cid-qEF8NS5xJv:hover {
-  background-color: #69b9d0;
+  background-color: #700c15;
 }
 .cid-qEF8NS5xJv .mbr-section-title {
   margin: 0;
@@ -3090,46 +3100,6 @@ body {
 .cid-qEF8NR1lx1 .mbr-gallery-item > div > span {
   text-align: center;
   color: #3789a0;
-}
-#custom-html-4j {
-  background: #85bfd0;
-  color: #3D6392;
-  padding: 20px 15px;
-}
-#custom-html-4j #mailchimp {
-  background: #85bfd0;
-  color: #3D6392;
-  padding: 20px 15px;
-}
-#custom-html-4j #mailchimp input {
-  border: medium none;
-  color: gray;
-  font-family: ;
-  font-size: 16px;
-  font-style: ;
-  margin-bottom: 10px;
-  padding: 8px 10px;
-  width: 600px;
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-}
-#custom-html-4j #mailchimp input.email {
-  background: #ffffff;
-}
-#custom-html-4j #mailchimp input.name {
-  background: #ffffff;
-}
-#custom-html-4j #mailchimp input[type="submit"] {
-  background: #115B87;
-  color: #fff;
-  cursor: pointer;
-  font-size: 15px;
-  width: 35%;
-  padding: 8px 0;
-}
-#custom-html-4j #mailchimp input[type="submit"]:hover {
-  color: #f2c94c;
 }
 .cid-qEF8NRDOXb .nav-item:focus,
 .cid-qEF8NRDOXb .nav-link:focus {
@@ -3851,19 +3821,14 @@ body {
 .cid-qDJXYpgEmX .icons-block {
   color: #3789a0;
 }
-.cid-qF9NfqEGmU {
-  padding-top: 105px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
-}
-.cid-qF9NfqEGmU .mbr-text,
-.cid-qF9NfqEGmU .ornament B {
-  color: #125568;
-}
 .cid-raQrGqkMKy {
-  padding-top: 45px;
+  padding-top: 120px;
   padding-bottom: 30px;
   background-color: #ffffff;
+}
+.cid-raQrGqkMKy .mbr-text,
+.cid-raQrGqkMKy .ornament {
+  color: #9f3942;
 }
 .cid-qF9NJctuFK {
   padding-top: 60px;
@@ -3933,45 +3898,37 @@ body {
 .cid-qF9NJctuFK .mbr-price-value {
   color: #f58111;
 }
-#custom-html-4k {
-  background: #85bfd0;
-  color: #3D6392;
-  padding: 20px 15px;
+.cid-rb0lhas7Jn {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #961823;
+  transition: background-color 0.3s ease-in-out;
 }
-#custom-html-4k #mailchimp {
-  background: #85bfd0;
-  color: #3D6392;
-  padding: 20px 15px;
+.cid-rb0lhas7Jn:hover {
+  background-color: #9f3942;
 }
-#custom-html-4k #mailchimp input {
-  border: medium none;
-  color: gray;
-  font-family: ;
-  font-size: 16px;
-  font-style: ;
-  margin-bottom: 10px;
-  padding: 8px 10px;
-  width: 600px;
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
+.cid-rb0lhas7Jn .mbr-section-title {
+  margin: 0;
 }
-#custom-html-4k #mailchimp input.email {
-  background: #ffffff;
+.cid-rb0lhas7Jn .card-wrapper {
+  z-index: 3;
 }
-#custom-html-4k #mailchimp input.name {
-  background: #ffffff;
+.cid-rb0lhas7Jn .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
 }
-#custom-html-4k #mailchimp input[type="submit"] {
-  background: #115B87;
-  color: #fff;
-  cursor: pointer;
-  font-size: 15px;
-  width: 35%;
-  padding: 8px 0;
+.cid-rb0lhas7Jn .popup-btn.card-wrapper {
+  z-index: 1 !important;
 }
-#custom-html-4k #mailchimp input[type="submit"]:hover {
-  color: #f2c94c;
+.cid-rb0l5YJWYw {
+  padding-top: 45px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
 }
 .cid-qDJXYkawrv .nav-item:focus,
 .cid-qDJXYkawrv .nav-link:focus {
