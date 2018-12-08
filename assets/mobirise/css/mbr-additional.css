@@ -2345,7 +2345,7 @@ body {
 .cid-qOaqbkb46D {
   padding-top: 90px;
   padding-bottom: 30px;
-  background-color: #85bfd0;
+  background-color: #b3eaf4;
 }
 .cid-qOaqbkb46D .text-box {
   position: absolute;
@@ -4533,6 +4533,33 @@ body {
 }
 .cid-rbdSAJsmQI .mbr-text B {
   color: #961823;
+}
+.cid-rbEUjN78k4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #3789a0;
+  transition: background-color 0.3s ease-in-out;
+}
+.cid-rbEUjN78k4:hover {
+  background-color: #125568;
+}
+.cid-rbEUjN78k4 .mbr-section-title {
+  margin: 0;
+}
+.cid-rbEUjN78k4 .card-wrapper {
+  z-index: 3;
+}
+.cid-rbEUjN78k4 .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-rbEUjN78k4 .popup-btn.card-wrapper {
+  z-index: 1 !important;
 }
 .cid-qHvyODqgUo {
   padding-top: 45px;
