@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TYMI HOWARD YOGA New Site",
-    "currentPage": "retreats.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "restaurantm4",
       "title": "RestaurantM4",
@@ -994,7 +994,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<div><a href=\"http://www.studiooxygenyoga.com\" target=\"_blank\"></a><span style=\"background-color: transparent; font-size: 1.2rem;\">STUDIO OXYGEN</span><br></div>Canfield OH<br><br>Weekend Workshops<br>January 11-13, 2019<br><br>CLICK TO SIGN UP<br>",
+                "caption": "<div><a href=\"http://www.studiooxygenyoga.com\" target=\"_blank\"></a><span style=\"background-color: transparent; font-size: 1.2rem;\">STUDIO OXYGEN</span><br></div>Canfield OH<br><br>Weekend Workshops<br>January 11-13, 2019<br><br><a href=\"http://www.studiooxygenyoga.com/\" target=\"_blank\">CLICK TO SIGN UP</a><br>",
                 "active": false
               },
               {
@@ -1046,7 +1046,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "<p><a href=\"http://goldenyogi.co.nz/\" target=\"_blank\"></a>GOLDEN YOGI <br>Auckland NEW ZEALAND <br><br>Yoga Workshops<br>March 15-17, 2019&nbsp;<br><br><a href=\"http://goldenyogi.co.nz/\" target=\"_blank\">CLICK TO SIGN UP</a></p>",
                 "active": false
               },
               {
@@ -1059,7 +1059,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<p><a href=\"http://www.balispiritfestival.com/\" target=\"_blank\"></a>BALI SPIRIT FESTIVAL<br>12th Edition &nbsp;<br>Ubud Bali INDONESIA <br><br>March 24-31, 2019&nbsp;<br><br>CLICK FOR INFO</p>",
+                "caption": "<p><a href=\"http://www.balispiritfestival.com/\" target=\"_blank\"></a>BALI SPIRIT FESTIVAL<br>12th Edition &nbsp;<br>Ubud Bali INDONESIA <br><br>March 24-31, 2019&nbsp;<br><br><a href=\"http://www.balispiritfestival.com/\" target=\"_blank\">CLICK FOR INFO</a></p>",
                 "active": true
               }
             ]
