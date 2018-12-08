@@ -2552,6 +2552,11 @@ body {
   text-align: center;
   color: #3789a0;
 }
+.cid-rbEYBVQA3R {
+  padding-top: 45px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
 .cid-qEF8NRDOXb .nav-item:focus,
 .cid-qEF8NRDOXb .nav-link:focus {
   outline: none;
@@ -3706,7 +3711,7 @@ body {
 .cid-qDJYllsAKA .underline .line {
   width: 5rem;
   height: 3px;
-  background: #3789a0;
+  background: #9f3942;
   display: inline-block;
 }
 .cid-qDJYllsAKA .social-media ul li {
@@ -4183,6 +4188,19 @@ body {
   .cid-qDJXYkawrv .navbar.opened {
     height: auto;
   }
+}
+.cid-rbEYrOZYY6 {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rbEYrOZYY6 .mbr-text,
+.cid-rbEYrOZYY6 .ornament B {
+  color: #9f3942;
+}
+.cid-rbEYrOZYY6 .mbr-text,
+.cid-rbEYrOZYY6 .ornament {
+  color: #444444;
 }
 .cid-qDJXYpgEmX {
   padding-top: 45px;
