@@ -969,7 +969,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "GURUV YOGA<br>Orlando FLORIDA<br>200/300HR VINYASA &amp; YIN <br>YOGA TEACHER TRAINING <br>1 MONTH IMMERSION<br><br> JANUARY 5 - FEBRUARY 2<br><a href=\"http://guruvyoga.com/yoga-teacher-training/one-month-immersion/\" target=\"_blank\"><i>CLICK FOR DETAILS</i></a>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Yoga Teacher Training",
@@ -1050,7 +1050,7 @@
                 "active": false
               },
               {
-                "tags": "Yoga Festival",
+                "tags": "Yoga Festivals",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1060,7 +1060,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<p><a href=\"http://www.balispiritfestival.com/\" target=\"_blank\"></a>BALI SPIRIT FESTIVAL<br>12th Edition &nbsp;<br>Ubud Bali INDONESIA <br><br>March 24-31, 2019&nbsp;<br><br><a href=\"http://www.balispiritfestival.com/\" target=\"_blank\">CLICK FOR INFO</a></p>",
-                "active": false
+                "active": true
               }
             ]
           }
