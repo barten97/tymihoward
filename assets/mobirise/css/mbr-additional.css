@@ -3274,6 +3274,8 @@ body {
   color: #3789a0;
 }
 .cid-rbGZBgu1Zp {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-image: url("../../../assets/images/tymi-howard-guruv-yoga-florida-5-1600x1080.jpg");
 }
 .cid-rbGZBgu1Zp .mbr-overlay {
@@ -3402,6 +3404,104 @@ body {
   z-index: 2;
 }
 .cid-rb0lhas7Jn .popup-btn.card-wrapper {
+  z-index: 1 !important;
+}
+.cid-rbHUZOTiUi {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/bali-yoga-teacher-training-tymi-howard-1600x1080.jpg");
+}
+.cid-rbHUZOTiUi .img-wrap {
+  width: 100% !important;
+  height: 100% !important;
+}
+.cid-rbHUZOTiUi .main-reverse {
+  flex-direction: row-reverse;
+}
+.cid-rbHUZOTiUi .image-element {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.cid-rbHUZOTiUi .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.cid-rbHUZOTiUi .text-element {
+  padding: 1rem;
+}
+.cid-rbHUZOTiUi .main,
+.cid-rbHUZOTiUi .main-reverse {
+  background: #fdf8ec;
+}
+@media (max-width: 991px) {
+  .cid-rbHUZOTiUi .main:first-child {
+    padding-top: 1rem;
+  }
+  .cid-rbHUZOTiUi .image-element,
+  .cid-rbHUZOTiUi .text-element {
+    margin-bottom: 1rem;
+  }
+  .cid-rbHUZOTiUi .main-reverse {
+    flex-direction: row;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rbHUZOTiUi .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .cid-rbHUZOTiUi .image-element,
+  .cid-rbHUZOTiUi .text-element {
+    margin-bottom: 0;
+  }
+  .cid-rbHUZOTiUi .main:first-child {
+    padding-top: 0;
+  }
+}
+.cid-rbHUZOTiUi .mbr-title,
+.cid-rbHUZOTiUi .underline {
+  color: #9f3942;
+}
+.cid-rbHUZOTiUi .mbr-text {
+  color: #3789a0;
+}
+.cid-rbHUZOTiUi .mbr-price-value I {
+  color: #866039;
+}
+.cid-rbHUZOTiUi .mbr-price-value {
+  color: #f58111;
+}
+.cid-rbHUZOTiUi .mbr-price-value A {
+  color: #f58111;
+}
+.cid-rbIeCEgPJG {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #d48336;
+  transition: background-color 0.3s ease-in-out;
+}
+.cid-rbIeCEgPJG:hover {
+  background-color: #d48336;
+}
+.cid-rbIeCEgPJG .mbr-section-title {
+  margin: 0;
+}
+.cid-rbIeCEgPJG .card-wrapper {
+  z-index: 3;
+}
+.cid-rbIeCEgPJG .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-rbIeCEgPJG .popup-btn.card-wrapper {
   z-index: 1 !important;
 }
 .cid-rb0l5YJWYw {
