@@ -3480,11 +3480,11 @@ body {
 .cid-rbIeCEgPJG {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #d48336;
+  background-color: #ea8525;
   transition: background-color 0.3s ease-in-out;
 }
 .cid-rbIeCEgPJG:hover {
-  background-color: #d48336;
+  background-color: #ea8525;
 }
 .cid-rbIeCEgPJG .mbr-section-title {
   margin: 0;
@@ -3502,6 +3502,104 @@ body {
   z-index: 2;
 }
 .cid-rbIeCEgPJG .popup-btn.card-wrapper {
+  z-index: 1 !important;
+}
+.cid-rbIfdJQ60G {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/p1490694-1-1920x1080.jpg");
+}
+.cid-rbIfdJQ60G .img-wrap {
+  width: 100% !important;
+  height: 100% !important;
+}
+.cid-rbIfdJQ60G .main-reverse {
+  flex-direction: row-reverse;
+}
+.cid-rbIfdJQ60G .image-element {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.cid-rbIfdJQ60G .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.cid-rbIfdJQ60G .text-element {
+  padding: 1rem;
+}
+.cid-rbIfdJQ60G .main,
+.cid-rbIfdJQ60G .main-reverse {
+  background: #f5f4f2;
+}
+@media (max-width: 991px) {
+  .cid-rbIfdJQ60G .main:first-child {
+    padding-top: 1rem;
+  }
+  .cid-rbIfdJQ60G .image-element,
+  .cid-rbIfdJQ60G .text-element {
+    margin-bottom: 1rem;
+  }
+  .cid-rbIfdJQ60G .main-reverse {
+    flex-direction: row;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rbIfdJQ60G .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .cid-rbIfdJQ60G .image-element,
+  .cid-rbIfdJQ60G .text-element {
+    margin-bottom: 0;
+  }
+  .cid-rbIfdJQ60G .main:first-child {
+    padding-top: 0;
+  }
+}
+.cid-rbIfdJQ60G .mbr-title,
+.cid-rbIfdJQ60G .underline {
+  color: #9f3942;
+}
+.cid-rbIfdJQ60G .mbr-text {
+  color: #125568;
+}
+.cid-rbIfdJQ60G .mbr-price-value I {
+  color: #866039;
+}
+.cid-rbIfdJQ60G .mbr-price-value {
+  color: #f58111;
+}
+.cid-rbIfdJQ60G .mbr-price-value A {
+  color: #f58111;
+}
+.cid-rbIhJZUUZK {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #3789a0;
+  transition: background-color 0.3s ease-in-out;
+}
+.cid-rbIhJZUUZK:hover {
+  background-color: #125568;
+}
+.cid-rbIhJZUUZK .mbr-section-title {
+  margin: 0;
+}
+.cid-rbIhJZUUZK .card-wrapper {
+  z-index: 3;
+}
+.cid-rbIhJZUUZK .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-rbIhJZUUZK .popup-btn.card-wrapper {
   z-index: 1 !important;
 }
 .cid-rb0l5YJWYw {
