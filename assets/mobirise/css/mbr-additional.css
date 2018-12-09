@@ -859,7 +859,6 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-qDHzjd8XKV .navbar.opened {
   transition: all .3s;
@@ -1500,7 +1499,6 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-qHtwL98Cz3 .navbar.opened {
   transition: all .3s;
@@ -2591,7 +2589,6 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-qEF8NRDOXb .navbar.opened {
   transition: all .3s;
@@ -2891,7 +2888,6 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-raTMo5zt1z .navbar.opened {
   transition: all .3s;
@@ -3426,7 +3422,6 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-qDJXYkawrv .navbar.opened {
   transition: all .3s;
@@ -3956,7 +3951,6 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-qDJXYkawrv .navbar.opened {
   transition: all .3s;
@@ -4269,7 +4263,6 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-qHvyOBUG4q .navbar.opened {
   transition: all .3s;
@@ -4508,82 +4501,18 @@ body {
     height: auto;
   }
 }
-.cid-rbdSAJsmQI {
-  padding-top: 105px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
+.cid-rbGRal6NQP {
+  background-image: url("../../../assets/images/orlandoyoga-teacher-training-1-800w-513h-800x513.jpg");
 }
-.cid-rbdSAJsmQI .mbr-text {
-  position: relative;
-  color: #444444;
+.cid-rbGRal6NQP .mbr-overlay {
+  background: #232323;
 }
-.cid-rbdSAJsmQI .mbr-text:before {
-  color: #ffffff;
-  content: "\201C";
-  font-size: 3em;
-  line-height: 0.1em;
-  margin-right: 0.2em;
-  vertical-align: -0.4em;
-  position: absolute;
-  top: 10px;
-  left: -2rem;
-}
-.cid-rbdSAJsmQI .mbr-text:after {
-  color: #ffffff;
-  content: "\201D";
-  font-size: 3em;
-  line-height: 0.1em;
-  vertical-align: -0.45em;
-  position: absolute;
-  bottom: 10px;
-  right: -2rem;
-}
-@media (max-width: 767px) {
-  .cid-rbdSAJsmQI .mbr-text:after,
-  .cid-rbdSAJsmQI .mbr-text:before {
-    display: none;
-  }
-}
-.cid-rbdSAJsmQI .mbr-section-title,
-.cid-rbdSAJsmQI .logo {
-  color: #125568;
-}
-.cid-rbdSAJsmQI P {
-  text-align: center;
-}
-.cid-rbdSAJsmQI .mbr-section-title,
-.cid-rbdSAJsmQI .logo B {
+.cid-rbGRal6NQP .mbr-section-title {
+  letter-spacing: .5rem;
   color: #961823;
 }
-.cid-rbdSAJsmQI .mbr-text B {
+.cid-rbGRal6NQP .mbr-section-subtitle B {
   color: #961823;
-}
-.cid-rbEUjN78k4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #3789a0;
-  transition: background-color 0.3s ease-in-out;
-}
-.cid-rbEUjN78k4:hover {
-  background-color: #125568;
-}
-.cid-rbEUjN78k4 .mbr-section-title {
-  margin: 0;
-}
-.cid-rbEUjN78k4 .card-wrapper {
-  z-index: 3;
-}
-.cid-rbEUjN78k4 .full-link {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 0;
-  z-index: 2;
-}
-.cid-rbEUjN78k4 .popup-btn.card-wrapper {
-  z-index: 1 !important;
 }
 .cid-qHvyODqgUo {
   padding-top: 45px;
@@ -4920,7 +4849,6 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-r9BC9ZRaCN .navbar.opened {
   transition: all .3s;
