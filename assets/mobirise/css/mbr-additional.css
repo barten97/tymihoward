@@ -3273,12 +3273,25 @@ body {
 .cid-qDJXYpgEmX .icons-block {
   color: #3789a0;
 }
-.cid-rbFB70BZ5K {
-  background-image: url("../../../assets/images/tymihoward-headshot-960w-727h-960x727.jpg");
+.cid-rbGZBgu1Zp {
+  background-image: url("../../../assets/images/tymi-howard-guruv-yoga-florida-5-1600x1080.jpg");
 }
-.cid-rbFB70BZ5K .mbr-section-title,
-.cid-rbFB70BZ5K .ornament {
+.cid-rbGZBgu1Zp .mbr-overlay {
+  background: #232323;
+}
+.cid-rbGZBgu1Zp .mbr-section-title {
+  letter-spacing: .5rem;
   color: #961823;
+}
+.cid-rbGZBgu1Zp .mbr-text,
+.cid-rbGZBgu1Zp .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-rbGZBgu1Zp .mbr-section-subtitle DIV {
+  color: #125568;
+}
+.cid-rbGZBgu1Zp .mbr-section-subtitle I {
+  color: #125568;
 }
 .cid-raQrGqkMKy {
   padding-top: 75px;
